@@ -1,0 +1,67 @@
+.div_warning_message {
+    top: 40%;
+    left: 20%;
+    position: fixed;
+    z-index: 9999999;
+    width: 60%;
+    padding: 50px 2%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.div_warning_message p {
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+
+#aw_btn_ok {
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: chartreuse;
+    color: black;
+    float: left
+}
+
+#aw_btn_cancel {
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: firebrick;
+    color: white;
+    float: right;
+}
+
+.aw_background{
+    display: none;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .div_warning_message {
+        top: 30%;
+        left: 5%;
+        position: fixed;
+        z-index: 9999999;
+        width: 90%;
+        padding: 20px 5%;
+        background-color: rgba(0, 0, 0, 0.8);
+        
+    }
+    .div_warning_message p {
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+        color: white;
+    }
+}
