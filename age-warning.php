@@ -12,7 +12,7 @@ Plugin URI: http://www.ovimedia.es/
 function age_warning_menu() 
 {	
 	$menu = add_menu_page( 'Age Warning', 'Age Warning', 'read',  'age_warning', 'warning_form', 'dashicons-warning', 80);
-}
+} 
 
 add_action( 'admin_menu', 'age_warning_menu' );
 
